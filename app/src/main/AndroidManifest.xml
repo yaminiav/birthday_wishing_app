@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.birthdayfafa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:testOnly="false"
+        android:allowBackup="true"
+        android:icon="@mipmap/netflix"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/netflix"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".edhole"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Memer"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".memes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bigImage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".videoinfo" />
+        <activity android:name=".videomsg"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".msginfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".writtenmsg"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".secondphase"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
